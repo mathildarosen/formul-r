@@ -1,0 +1,181 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 350px;
+  height: 750px;
+  padding: 20px;
+  border: 1px solid lightgray;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoImg {
+  width: 180px;
+  height: 100px;
+  background-image: url(Img/Logo-Instagram.png);
+  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-weight: 600;
+  color: rgb(107, 107, 107);
+}
+
+.cta1 {
+  border-radius: 8px;
+  border-style: none;
+  background: #3d95ef;
+  color: white;
+  width: 250px;
+  height: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: rgb(107, 107, 107);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: small;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  height: 1px;
+  width: 100px;
+  background-color: lightgray;
+  margin: 0 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.formBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  gap: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: auto;
+}
+
+input[type="email"],
+input[type="name"],
+input[type="userName"],
+input[type="password"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: rgb(245, 247, 248);
+  font-size: 12px;
+}
+
+.infoText {
+  font-size: 10px;
+  color: grey;
+  margin-top: 10px;
+  display: flex;
+  width: 250px;
+  display: flex;
+  text-align: center;
+}
+
+a {
+  color: #3d95ef;
+  text-decoration: none;
+}
+
+.infoText2 {
+  font-size: 12px;
+  color: grey;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 250px;
+}
+
+input[type="checkbox"],
+textarea,
+select {
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  width: 11px;
+  height: 11px;
+}
+
+.cta2 {
+  border-radius: 8px;
+  border-style: none;
+  background: #77b5f4;
+  color: white;
+  width: 250px;
+  height: 35px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.logIn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 70px;
+  border: 1px solid lightgray;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.footerText {
+  color: gray;
+  font-size: 10px;
+  margin-top: 20px;
+}
